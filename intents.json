@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "Greetings"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "Good to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "See you soon"],
+      "responses": ["Goodbye!", "See you later!", "Take care!", "Hope to see you again!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!", "No problem!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Can you tell me your name?", "What do I call you?"],
+      "responses": ["I’m your friendly chatbot!", "You can call me ChatBot!", "I'm here to assist you!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the weather", "Is it sunny today?", "How's the weather?"],
+      "responses": ["I’m not sure, but you can check your local weather app!", "It's always sunny in the digital world!", "Why not check the weather forecast online?"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "Are you old?", "Tell me your age"],
+      "responses": ["I'm as old as the internet!", "Age is just a number, and I’m timeless!", "I exist beyond the concept of age."]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": ["What's your favorite color?", "Do you have a favorite color?", "Tell me your favorite color"],
+      "responses": ["I like all colors equally!", "I’m partial to blue, it reminds me of the sky!", "Colors are fascinating, aren't they?"]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["What do you do for fun?", "Do you have any hobbies?", "What are your hobbies?"],
+      "responses": ["I enjoy helping people like you!", "My hobby is chatting with you!", "I love learning new things all the time."]
+    },
+    {
+      "tag": "programming",
+      "patterns": ["What programming languages do you know?", "Do you code?", "Tell me about programming","Give me a programming language?"],
+      "responses": ["I know many languages like Python, Java, C++, and more!", "I love coding! Python is one of my favorites.", "Programming is exciting! It allows me to do all sorts of things."]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What's your favorite food?", "Do you eat?", "Tell me about food?","Give me a food name?"],
+      "responses": ["I don’t eat, but I hear pizza is great!", "Food? I run on data!", "I don’t need food, just some good conversation."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me", "Could you assist me?","help"],
+      "responses": ["Sure, I’m here to help!", "How can I assist you?", "Let me know what you need help with!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Do you know any jokes?", "Make me laugh", "Say something funny","Give me a joke?","Give a joke?","joke?"],
+      "responses": [
+        "Why don't programmers like nature? It has too many bugs!",
+        "Why do we tell actors to break a leg? Because every play has a cast!",
+        "I told my computer I needed a break, and now it won't stop sending me beach photos."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?","time"],
+      "responses": ["I'm not a clock, but you can check your device!", "Time is an illusion... but you can check the clock on your phone!", "You can easily find the current time on your device."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Tell me the date", "What's today's date?","Date"],
+      "responses": ["You can check the calendar on your device!", "Today is a great day, why not check the date on your phone?", "I believe your device knows the answer!"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["What music do you like?", "What's your favorite song?", "Tell me about music","Music"],
+      "responses": ["I don't listen to music, but I hear Beethoven is great!", "Music makes life better, right?", "I enjoy all kinds of music... digitally!"]
+    },
+    {
+      "tag": "bot_creator",
+      "patterns": ["Who made you?", "Who is your creator?", "Who built you?"],
+      "responses": ["I was created by brilliant developers!", "I’m a product of some awesome coding!", "I was built with love by programmers!"]
+    },
+    {
+      "tag": "love",
+      "patterns": ["Do you love me?", "What is love?", "Can you feel love?"],
+      "responses": ["I can’t feel emotions, but I appreciate your kind words!", "Love is a wonderful feeling, isn't it?", "I may not love, but I can help you find answers!"]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["What's your favorite movie?", "Do you watch movies?", "Tell me about movies"],
+      "responses": ["I don’t watch movies, but I hear 'Inception' is mind-blowing!", "Movies are fascinating, aren’t they?", "I prefer to read scripts... literally!"]
+    },
+    {
+      "tag": "languages",
+      "patterns": ["What languages can you speak?", "Do you know any languages?", "Tell me which languages you speak"],
+      "responses": ["I can understand many languages, including English, Spanish, French, and more!", "I speak the language of code and data!", "I can interact in multiple human languages!"]
+    }
+  ]
+}
